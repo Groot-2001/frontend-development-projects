@@ -28,3 +28,103 @@ body{
     padding: 1rem;
     margin: 1rem;
 }
+/* Datepicker Container */
+.datepicker-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Label Styling */
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  /* Input Styling */
+  input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  input[type="date"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+
+  /* Datepicker Container */
+.datepicker {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:blanchedalmond;
+    color: black;
+  }
+  
+  .nav-button {
+    background: white;
+    border: 2px solid salmon;
+    border-radius: 1em;
+    padding: 0.5rem;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .month-year {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Calendar Grid */
+  .calendar {
+    padding: 10px;
+  }
+  
+  .weekdays, .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .weekdays div {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    padding: 5px;
+  }
+  
+  .days div {
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .days div:hover {
+    background-color: blanchedalmond;
+    color: salmon;
+  }
+  
+  .empty {
+    visibility: hidden;
+  }
